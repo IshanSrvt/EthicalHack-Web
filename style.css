@@ -1,0 +1,111 @@
+body {
+  background-color:#2f005b;
+    color: #fff;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  h1{
+    background-color: rgb(33, 0, 65);
+    text-overflow: clip;
+    text-rendering: geometricPrecision;
+    color: #000000;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h2, h3, h4, h5, h6 {
+    margin-left: auto;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    color: #f8f8f8;}
+
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        color: #000000;
+
+      }
+      
+     
+
+      .grid-item {
+        font-size:large;
+        color: #6900cc;
+        border: 1px solid #7100db7c;
+        border-radius: 40px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        image-resolution: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      img{
+        object-fit: fill;
+        width: 45%;
+        max-height: 100%;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #01000031;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        border-radius: 2px;
+      }
+      
+      li {
+        float:left;
+      }
+      
+      li a {
+        margin-top: 15px;
+        font-size: 20px;
+        display: block;
+        color: rgb(140, 0, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 2px;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #6b00e6bb;
+        color: rgb(35, 0, 72);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: background-color 1s ease-out 50ms;
+        border-radius: 20px;
+      }
+      
+      .active {
+        background-color: #5300b1e5;
+        border-radius: 20px;
+        
+      }
+      li b {
+        margin-right: 40px;
+        font-size: 52px;
+        font-family: cursive;
+
+        color: rgb(132, 0, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      body {margin:0;}
+
+      a {
+        color: #6100c9;
+      }
